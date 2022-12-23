@@ -11,12 +11,16 @@ namespace BasicCoreProgramsDay5
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to basic core programs");
-            Console.WriteLine("1.FlipCoin");
+            Console.WriteLine("1.FlipCoin\n2.LeapYear");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
                 case 1:
                     FlipCoin.CoinPercentage();
+                    break;
+
+                case 2:
+                    LeapYear.leapYear();
                     break;
             }
             Console.ReadLine();
