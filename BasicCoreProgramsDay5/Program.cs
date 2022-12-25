@@ -11,7 +11,7 @@ namespace BasicCoreProgramsDay5
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to basic core programs");
-            Console.WriteLine("1.FlipCoin\n2.LeapYear\n3.Power Of 2\n4.Harmonic Number\n5.Prime Factors\n6.Division\n7.Swapping\n8.EvenOdd Number\n9.Vowel&Consonant");
+            Console.WriteLine("1.FlipCoin\n2.LeapYear\n3.Power Of 2\n4.Harmonic Number\n5.Prime Factors\n6.Division\n7.Swapping\n8.EvenOdd Number\n9.Vowel&Consonant\n10.Largest Number");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -49,6 +49,10 @@ namespace BasicCoreProgramsDay5
 
                 case 9:
                     VowelConsonant.Alphabet();
+                    break;
+
+                case 10:
+                    LargestNumber.Largest();
                     break;
             }
             Console.ReadLine();
