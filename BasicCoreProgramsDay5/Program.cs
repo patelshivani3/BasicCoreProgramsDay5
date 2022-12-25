@@ -11,7 +11,7 @@ namespace BasicCoreProgramsDay5
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to basic core programs");
-            Console.WriteLine("1.FlipCoin\n2.LeapYear\n3.Power Of 2\n4.Harmonic Number\n5.Prime Factors\n6.Division");
+            Console.WriteLine("1.FlipCoin\n2.LeapYear\n3.Power Of 2\n4.Harmonic Number\n5.Prime Factors\n6.Division\n7.Swapping");
             int option = Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
@@ -38,6 +38,10 @@ namespace BasicCoreProgramsDay5
                 case 6:
                     Division.Div();
                     break;
+
+                case 7:
+                    Swapping.Swap();
+                    break;  
             }
             Console.ReadLine();
 
